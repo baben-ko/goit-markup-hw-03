@@ -1,0 +1,238 @@
+:root {
+  --blue: #2196f3;
+  --black-logo: #000000;
+  --black: #212121;
+  --gray: #757575;
+  --white: #ffffff;
+}
+
+/*  ============ COMPONENTS  ============ */
+
+body {
+  font-family: 'Roboto', sans-serif; /* основной шрифт */
+  font-style: normal;
+}
+
+a {
+  text-decoration: none; /* Отменяем подчеркивание у ссылки */
+}
+
+li {
+  list-style-type: none; /* Убираем маркеры */
+}
+
+.address {
+  font-style: normal; /* Убираем италик с сылок в адресах */
+}
+
+/* ================== HEADER ======================*/
+
+.accent {
+  color: var(--blue);
+}
+.header-logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--black-logo);
+}
+
+.header-menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--black);
+}
+
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: var(--blue);
+}
+
+.address .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: var(--gray);
+}
+
+.address .link:hover,
+.address .link:focus {
+  color: var(--blue);
+}
+
+.active {
+  color: var(--blue);
+}
+
+/* ====================== HERO ========================= */
+.hero {
+  background: #2f303a;
+}
+.hero-text {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  color: var(--white);
+  text-transform: uppercase;
+}
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--white);
+}
+
+/* ==================== FEATURES ======================= */
+
+.features-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--black);
+}
+
+.features-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--gray);
+}
+
+/* ===================== WORK ========================== */
+
+.work-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--black);
+}
+
+/* ===================== TEAM =========================== */
+
+.team-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--black);
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--black);
+}
+
+.team-proffesion {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--gray);
+}
+
+/* ===================== FOOTER ========================== */
+
+.footer {
+  background: #2f303a;
+}
+.header-logo-footer {
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--white);
+}
+.address-footer .link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address-footer .link-map {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--white);
+}
+
+/* ====================== PORTFOLIO ======================= */
+.button-menu .button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
+  color: var(--black);
+  background: #f5f4fa;
+}
+
+.button-menu .button:hover,
+.button-menu .button:focus {
+  color: var(--white);
+  background: var(--blue);
+}
+
+.portfolio-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--black);
+}
+
+.portfolio-category {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--gray);
+}
+
+/* ===========ЗАМЕТКА про ЦВЕТА ТЕКСТА================= */
+
+/* цвет лого 
+  color: #2196F3;
+  color: #000000;
+
+ цвет навигационного меню
+ color: #2196F3;
+ color: #212121;
+
+ цвет контактной инфы
+  color: #2196F3;
+  color: #757575;
+
+  блок герой
+  color: #FFFFFF;
+
+   блок FEATURES
+    H2 - color: #212121;
+    P - color: #757575;
+
+   блок TEAM
+     H2 - color: #212121;
+    P - color: #757575;
+
+    футер
+    color: #FFFFFF;
+    color: rgba(255, 255, 255, 0.6);
+
+    цвет текста КНОПОК НА ПОРТФОЛИО
+     color: #FFFFFF;
+     color: #212121;
+
+     H2 color: #212121;
+     P color: #757575; */
