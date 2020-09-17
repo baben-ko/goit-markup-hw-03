@@ -242,6 +242,7 @@ li {
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--black);
+  text-align: center;
 }
 
 .team-proffesion {
@@ -252,6 +253,7 @@ li {
   color: var(--gray);
   margin-bottom: 0px;
   margin-top: 0px;
+  text-align: center;
 }
 
 /* ===================== FOOTER ========================== */
