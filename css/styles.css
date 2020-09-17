@@ -347,6 +347,7 @@ li {
   margin-left: auto;
   margin-right: auto;
   width: 1170px;
+  padding-bottom: 94px;
   /* outline: 2px solid tomato; */
 }
 
@@ -360,6 +361,8 @@ li {
 .button-menu {
   display: flex;
   justify-content: center;
+  padding-top: 94px;
+  /* outline: 2px solid tomato; */
 }
 
 /* ===========ЗАМЕТКА про ЦВЕТА ТЕКСТА================= */
