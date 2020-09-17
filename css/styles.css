@@ -54,8 +54,10 @@ li {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1170px;
+  width: 1200px;
   /* outline: 2px solid tomato; */
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .header-menu {
@@ -180,10 +182,12 @@ li {
 .container-features {
   margin-left: auto;
   margin-right: auto;
-  width: 1170px;
+  width: 1200px;
   /* outline: 2px solid tomato; */
   padding-top: 94px;
   padding-bottom: 94px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .list-features {
@@ -285,10 +289,12 @@ li {
 .container-footer {
   margin-left: auto;
   margin-right: auto;
-  width: 1170px;
+  width: 1200px;
   /* outline: 2px solid tomato; */
   padding-bottom: 60px;
   padding-top: 60px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .list-footer {
@@ -296,6 +302,13 @@ li {
   padding: 0px;
   list-style: none;
 }
+.address-footer {
+  margin-bottom: 9px;
+}
+.address-footer:last-child {
+  margin-bottom: 0px;
+}
+
 /* ====================== PORTFOLIO ======================= */
 
 /* .button {
@@ -304,7 +317,6 @@ li {
   padding-left: 22px;
   padding-top: 6px;
 } */
-
 .button-ul {
   box-sizing: border-box;
   display: flex;
@@ -332,6 +344,7 @@ li {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--black);
+  padding-left: 24px;
 }
 
 .portfolio-category {
@@ -339,6 +352,7 @@ li {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--gray);
+  padding-left: 24px;
 }
 
 .container-portfolio-gallery {
@@ -346,8 +360,10 @@ li {
   flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
-  width: 1170px;
+  width: 1200px;
   padding-bottom: 94px;
+  padding-left: 15px;
+  padding-right: 15px;
   /* outline: 2px solid tomato; */
 }
 
@@ -363,6 +379,12 @@ li {
   justify-content: center;
   padding-top: 94px;
   /* outline: 2px solid tomato; */
+}
+
+.portfolio-item {
+  /* outline: 2px solid tomato; */
+  margin-bottom: 30px;
+  border: 1px solid #eeeeee;
 }
 
 /* ===========ЗАМЕТКА про ЦВЕТА ТЕКСТА================= */
