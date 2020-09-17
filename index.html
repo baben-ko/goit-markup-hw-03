@@ -16,40 +16,46 @@
   </head>
   <body>
     <!--HEADER-->
-    <div class="container">
+    <div class="container container-header">
       <header class="header">
-        <nav class="header-nav">
-          <a
-            class="header-logo"
-            href="./index.html"
-            aria-label="логотип вэбстудии"
-            ><span class="accent">Web</span>Studio</a
-          >
-          <ul class="header-menu list">
-            <li class="header-menu-item">
-              <a class="header-menu-link active" href="./index.html">Студия</a>
-            </li>
-            <li class="header-menu-item">
-              <a class="header-menu-link" href="./portfolio.html">Портфолио</a>
-            </li>
-            <li class="header-menu-item">
-              <a class="header-menu-link" href="">Контакты</a>
-            </li>
-          </ul>
-        </nav>
-        <address class="address">
-          <a class="link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-          <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
-        </address>
+        <div class="container-flex-header">
+          <nav class="header-nav">
+            <a
+              class="header-logo"
+              href="./index.html"
+              aria-label="логотип вэбстудии"
+              ><span class="accent">Web</span>Studio</a
+            >
+            <ul class="header-menu list">
+              <li class="header-menu-item">
+                <a class="header-menu-link active" href="./index.html"
+                  >Студия</a
+                >
+              </li>
+              <li class="header-menu-item">
+                <a class="header-menu-link" href="./portfolio.html"
+                  >Портфолио</a
+                >
+              </li>
+              <li class="header-menu-item last">
+                <a class="header-menu-link" href="">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+
+          <address class="address">
+            <a class="link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+            <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+          </address>
+        </div>
       </header>
     </div>
     <main>
-      <!-- <div class="container"></div> -->
       <!-- HERO -->
       <div class="hero">
-        <section>
+        <section class="hero-section">
           <h1 class="hero-text">
             Эффективные решения <br />для вашего бизнеса
           </h1>
@@ -57,31 +63,31 @@
         </section>
       </div>
       <!--FEATURES-->
-      <section>
+      <section class="features-section">
         <div class="container-features">
-          <ul class="list">
-            <li>
+          <ul class="list-features list-footer">
+            <li class="feauters-list">
               <h2 class="features-title">Внимание к деталям</h2>
               <p class="features-text">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li>
+            <li class="feauters-list">
               <h2 class="features-title">Пунктуальность</h2>
               <p class="features-text">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li>
+            <li class="feauters-list">
               <h2 class="features-title">Планирование</h2>
               <p class="features-text">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li>
+            <li class="feauters-list">
               <h2 class="features-title">Современные технологии</h2>
               <p class="features-text">
                 Значимость этих проблем настолько очевидна, что реализация
@@ -96,7 +102,7 @@
         <div class="container padding-bottom">
           <h2 class="work-title">Чем мы занимаемся</h2>
           <ul class="list">
-            <li>
+            <li class="work-list">
               <img
                 src="./images/work/box1.jpg"
                 alt="пишут код"
@@ -104,7 +110,7 @@
                 height="294"
               />
             </li>
-            <li>
+            <li class="work-list">
               <img
                 src="./images/work/box2.jpg"
                 alt="разработка мобильных приложений"
@@ -112,7 +118,7 @@
                 height="294"
               />
             </li>
-            <li>
+            <li class="work-list">
               <img
                 src="./images/work/box3.jpg"
                 alt="работа со стилями и цветом"
@@ -184,7 +190,7 @@
           >
         </h2>
         <address>
-          <ul class="list">
+          <ul class="list-footer">
             <li class="address-footer">
               <a
                 class="link-map"
