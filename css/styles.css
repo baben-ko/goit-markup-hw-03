@@ -37,6 +37,10 @@ li {
   padding-bottom: 94px;
 }
 
+img {
+  display: block;
+}
+
 /* ================== HEADER ======================*/
 .container-flex-header {
   display: flex;
